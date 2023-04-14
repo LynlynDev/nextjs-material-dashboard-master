@@ -21,7 +21,7 @@ import CardBody from "components/Card/CardBody.js";
 const styles = {
   cardCategoryWhite: {
     "&,& a,& a:hover,& a:focus": {
-      color: "rgba(255,255,255,.62)",
+      color: rgba(253, 254, 255,0.5),
       margin: "0",
       fontSize: "14px",
       marginTop: "0",
@@ -32,7 +32,7 @@ const styles = {
     },
   },
   cardTitleWhite: {
-    color: "#FFFFFF",
+    color: "secondary",
     marginTop: "0px",
     minHeight: "auto",
     fontWeight: "300",
@@ -254,7 +254,7 @@ function Notifications() {
                   place="tc"
                   color="info"
                   icon={AddAlert}
-                  message="Welcome to NextJS MATERIAL DASHBOARD - a beautiful freebie for every web developer."
+                  message="Welcome to Best Employee."
                   open={tc}
                   closeNotification={() => setTC(false)}
                   close
@@ -272,7 +272,7 @@ function Notifications() {
                   place="tr"
                   color="info"
                   icon={AddAlert}
-                  message="Welcome to NextJS MATERIAL DASHBOARD - a beautiful freebie for every web developer."
+                  message="Welcome to Welcome to Best Employee."
                   open={tr}
                   closeNotification={() => setTR(false)}
                   close
@@ -296,7 +296,7 @@ function Notifications() {
                   place="bl"
                   color="info"
                   icon={AddAlert}
-                  message="Welcome to NextJS MATERIAL DASHBOARD - a beautiful freebie for every web developer."
+                  message="Welcome to Welcome to Best Employee."
                   open={bl}
                   closeNotification={() => setBL(false)}
                   close
@@ -314,7 +314,7 @@ function Notifications() {
                   place="bc"
                   color="info"
                   icon={AddAlert}
-                  message="Welcome to NextJS MATERIAL DASHBOARD - a beautiful freebie for every web developer."
+                  message="Welcome to Welcome to Best Employee."
                   open={bc}
                   closeNotification={() => setBC(false)}
                   close
@@ -332,7 +332,7 @@ function Notifications() {
                   place="br"
                   color="info"
                   icon={AddAlert}
-                  message="Welcome to NextJS MATERIAL DASHBOARD - a beautiful freebie for every web developer."
+                  message="Welcome to Welcome to Best Employee."
                   open={br}
                   closeNotification={() => setBR(false)}
                   close

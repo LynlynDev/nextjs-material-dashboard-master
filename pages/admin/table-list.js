@@ -49,22 +49,22 @@ function TableList() {
       <GridItem xs={12} sm={12} md={12}>
         <Card>
           <CardHeader color="primary">
-            <h4 className={classes.cardTitleWhite}>Simple Table</h4>
+            <h4 className={classes.cardTitleWhite}>Employees</h4>
             <p className={classes.cardCategoryWhite}>
-              Here is a subtitle for this table
+              List of Employees
             </p>
           </CardHeader>
           <CardBody>
             <Table
               tableHeaderColor="primary"
-              tableHead={["Name", "Country", "City", "Salary"]}
+              tableHead={["Name", "Country", "Email", "Contact"]}
               tableData={[
-                ["Dakota Rice", "Niger", "Oud-Turnhout", "$36,738"],
-                ["Minerva Hooper", "Curaçao", "Sinaai-Waas", "$23,789"],
-                ["Sage Rodriguez", "Netherlands", "Baileux", "$56,142"],
-                ["Philip Chaney", "Korea, South", "Overland Park", "$38,735"],
-                ["Doris Greene", "Malawi", "Feldkirchen in Kärnten", "$63,542"],
-                ["Mason Porter", "Chile", "Gloucester", "$78,615"],
+                ["Dakota Rice", "Niger", "dakotarice@gmail.com", "+237 673 258 426"],
+                ["Minerva Hooper", "Curaçao", "minervahooper@gmail.com", "+237 678 923 614"],
+                ["Sage Rodriguez", "Netherlands", "sagerodriguez@gmail.com", "+237 656 142 258"],
+                ["Philip Chaney", "Korea, South", "philipchaney@gmail.com", "+237 687 235 456"],
+                ["Doris Greene", "Malawi", "dorisgreene@gmail.com", "+237 657 542 369"],
+                ["Mason Porter", "Chile", "mason@gmail.com", "$+237 678 615 258"],
               ]}
             />
           </CardBody>
@@ -74,7 +74,7 @@ function TableList() {
         <Card plain>
           <CardHeader plain color="primary">
             <h4 className={classes.cardTitleWhite}>
-              Table on Plain Background
+              Table on Plain Background, Table of evaluation
             </h4>
             <p className={classes.cardCategoryWhite}>
               Here is a subtitle for this table
@@ -83,11 +83,11 @@ function TableList() {
           <CardBody>
             <Table
               tableHeaderColor="primary"
-              tableHead={["ID", "Name", "Country", "City", "Salary"]}
+              tableHead={["ID", "Name", "Poste", "Période d'évaluation", "Contact Téléphonique"]}
               tableData={[
-                ["1", "Dakota Rice", "$36,738", "Niger", "Oud-Turnhout"],
-                ["2", "Minerva Hooper", "$23,789", "Curaçao", "Sinaai-Waas"],
-                ["3", "Sage Rodriguez", "$56,142", "Netherlands", "Baileux"],
+                ["1", "Dakota Rice", "Responsable des Filières", "Niger", "678 952 625"],
+                ["2", "Minerva Hooper", "Chef de département", "Curaçao", "654 465 789"],
+                ["3", "Sage Rodriguez", "Charger des EDT", "Netherlands", "678 952 156"],
                 [
                   "4",
                   "Philip Chaney",
